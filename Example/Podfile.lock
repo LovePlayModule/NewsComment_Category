@@ -1,0 +1,19 @@
+PODS:
+  - Mediator (0.1.0)
+  - NewsComment_Category (0.1.0)
+
+DEPENDENCIES:
+  - Mediator
+  - NewsComment_Category (from `../`)
+
+EXTERNAL SOURCES:
+  NewsComment_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mediator: 5b8aebadf067de253f3f81900b4bea0909373842
+  NewsComment_Category: 0c90831d47c0af99cf9b542b6825717f28c74f3c
+
+PODFILE CHECKSUM: 93a47e5206a6fc14c0429b48b3f8ab05d88f5b32
+
+COCOAPODS: 1.2.1

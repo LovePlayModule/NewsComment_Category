@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D7FD761A86894168D312DC /* Pods_NewsComment_Category_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E9A923B45292387024A7C6 /* Pods_NewsComment_Category_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C9CE979DB6D9724B54BBBAA7 /* Pods_NewsComment_Category_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912DC31E3A5F777A0FF82713 /* Pods_NewsComment_Category_Tests.framework */; };
+		90CBEC6BB2C3DAE87AD5D857 /* libPods-NewsComment_Category_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C368EEBEFC4F130FD4E730F /* libPods-NewsComment_Category_Example.a */; };
+		D773D4A8FBFBE8108A699515 /* libPods-NewsComment_Category_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 924041EFC2DF39A59B9A38B6 /* libPods-NewsComment_Category_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C368EEBEFC4F130FD4E730F /* libPods-NewsComment_Category_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsComment_Category_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145E1FB5A828B6EDB6F043CD /* Pods-NewsComment_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsComment_Category_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsComment_Category_Tests/Pods-NewsComment_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		38BB43E0D6802915915D57BC /* Pods-NewsComment_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsComment_Category_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsComment_Category_Example/Pods-NewsComment_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E08A51334749386179764D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		44E9A923B45292387024A7C6 /* Pods_NewsComment_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsComment_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* NewsComment_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsComment_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7605EEBB3807771AED9C7D6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		912DC31E3A5F777A0FF82713 /* Pods_NewsComment_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsComment_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924041EFC2DF39A59B9A38B6 /* libPods-NewsComment_Category_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsComment_Category_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DB4B9DEAD8DE42E56D2C25 /* Pods-NewsComment_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsComment_Category_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsComment_Category_Tests/Pods-NewsComment_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F6F6CCBE550ED67728A62189 /* NewsComment_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NewsComment_Category.podspec; path = ../NewsComment_Category.podspec; sourceTree = "<group>"; };
 		FD0A262FDAA55F5D7B149D69 /* Pods-NewsComment_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsComment_Category_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsComment_Category_Example/Pods-NewsComment_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				05D7FD761A86894168D312DC /* Pods_NewsComment_Category_Example.framework in Frameworks */,
+				90CBEC6BB2C3DAE87AD5D857 /* libPods-NewsComment_Category_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C9CE979DB6D9724B54BBBAA7 /* Pods_NewsComment_Category_Tests.framework in Frameworks */,
+				D773D4A8FBFBE8108A699515 /* libPods-NewsComment_Category_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				44E9A923B45292387024A7C6 /* Pods_NewsComment_Category_Example.framework */,
-				912DC31E3A5F777A0FF82713 /* Pods_NewsComment_Category_Tests.framework */,
+				0C368EEBEFC4F130FD4E730F /* libPods-NewsComment_Category_Example.a */,
+				924041EFC2DF39A59B9A38B6 /* libPods-NewsComment_Category_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
