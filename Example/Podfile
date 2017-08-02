@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NewsComment_Category_Example' do
+  pod 'NewsComment_Category', :path => '../'
+
+  target 'NewsComment_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
